@@ -1,94 +1,4 @@
 <?php
-	$valueMonday0800 = "";
-	$valueMonday0900 = "";
-	$valueMonday1000 = "";
-	$valueMonday1100 = "";
-	$valueMonday1200 = "";
-	$valueMonday1300 = "";
-	$valueMonday1400 = "";
-	$valueMonday1500 = "";
-	$valueMonday1600 = "";
-	$valueMonday1700 = "";
-	$valueMonday1800 = "";
-	$valueMonday1900 = "";
-	$valueMonday2000 = "";
-	$valueMonday2100 = "";
-	
-	$valueTuesday0800 = "";
-	$valueTuesday0900 = "";
-	$valueTuesday1000 = "";
-	$valueTuesday1100 = "";
-	$valueTuesday1200 = "";
-	$valueTuesday1300 = "";
-	$valueTuesday1400 = "";
-	$valueTuesday1500 = "";
-	$valueTuesday1600 = "";
-	$valueTuesday1700 = "";
-	$valueTuesday1800 = "";
-	$valueTuesday1900 = "";
-	$valueTuesday2000 = "";
-	$valueTuesday2100 = "";
-	
-	$valueWednesday0800 = "";
-	$valueWednesday0900 = "";
-	$valueWednesday1000 = "";
-	$valueWednesday1100 = "";
-	$valueWednesday1200 = "";
-	$valueWednesday1300 = "";
-	$valueWednesday1400 = "";
-	$valueWednesday1500 = "";
-	$valueWednesday1600 = "";
-	$valueWednesday1700 = "";
-	$valueWednesday1800 = "";
-	$valueWednesday1900 = "";
-	$valueWednesday2000 = "";
-	$valueWednesday2100 = "";
-	
-	$valueThursday0800 = "";
-	$valueThursday0900 = "";
-	$valueThursday1000 = "";
-	$valueThursday1100 = "";
-	$valueThursday1200 = "";
-	$valueThursday1300 = "";
-	$valueThursday1400 = "";
-	$valueThursday1500 = "";
-	$valueThursday1600 = "";
-	$valueThursday1700 = "";
-	$valueThursday1800 = "";
-	$valueThursday1900 = "";
-	$valueThursday2000 = "";
-	$valueThursday2100 = "";
-	
-	$valueFriday0800 = "";
-	$valueFriday0900 = "";
-	$valueFriday1000 = "";
-	$valueFriday1100 = "";
-	$valueFriday1200 = "";
-	$valueFriday1300 = "";
-	$valueFriday1400 = "";
-	$valueFriday1500 = "";
-	$valueFriday1600 = "";
-	$valueFriday1700 = "";
-	$valueFriday1800 = "";
-	$valueFriday1900 = "";
-	$valueFriday2000 = "";
-	$valueFriday2100 = "";
-	
-	$valueSaturday0800 = "";
-	$valueSaturday0900 = "";
-	$valueSaturday1000 = "";
-	$valueSaturday1100 = "";
-	$valueSaturday1200 = "";
-	$valueSaturday1300 = "";
-	$valueSaturday1400 = "";
-	$valueSaturday1500 = "";
-	$valueSaturday1600 = "";
-	$valueSaturday1700 = "";
-	$valueSaturday1800 = "";
-	$valueSaturday1900 = "";
-	$valueSaturday2000 = "";
-	$valueSaturday2100 = "";
-	
 	$mondayData = array();
 	$tuesdayData = array();
 	$wednesdayData = array();
@@ -98,428 +8,344 @@
 	
 	if(isset($_POST["monday0800"]))
 	{
-		$valueMonday0800 = $_POST["monday0800"];
-		array_push($mondayData, $valueMonday0800);
+		array_push($mondayData, $_POST["monday0800"]);
 	}
 	if(isset($_POST["monday0900"]))
 	{
-		$valueMonday0900 = $_POST["monday0900"];
-		array_push($mondayData, $valueMonday0900);
+		array_push($mondayData, $_POST["monday0900"]);
 	}
 	if(isset($_POST["monday1000"]))
 	{
-		$valueMonday1000 = $_POST["monday1000"];
-		array_push($mondayData, $valueMonday1000);
+		array_push($mondayData, $_POST["monday1000"]);
 	}
 	if(isset($_POST["monday1100"]))
 	{
-		$valueMonday1100 = $_POST["monday1100"];
-		array_push($mondayData, $valueMonday1100);
+		array_push($mondayData, $_POST["monday1100"]);
 	}
 	if(isset($_POST["monday1200"]))
 	{
-		$valueMonday1200 = $_POST["monday1200"];
-		array_push($mondayData, $valueMonday1100);
+		array_push($mondayData, $_POST["monday1200"]);
 	}
 	if(isset($_POST["monday1300"]))
 	{
-		$valueMonday1300 = $_POST["monday1300"];
-		array_push($mondayData, $valueMonday1300);
+		array_push($mondayData, $_POST["monday1300"]);
 	}
 	if(isset($_POST["monday1400"]))
 	{
-		$valueMonday1400 = $_POST["monday1400"];
-		array_push($mondayData, $valueMonday1400);
+		array_push($mondayData, $_POST["monday1400"]);
 	}
 	if(isset($_POST["monday1500"]))
 	{
-		$valueMonday1500 = $_POST["monday1500"];
-		array_push($mondayData, $valueMonday1500);
+		array_push($mondayData, $_POST["monday1500"]);
 	}
 	if(isset($_POST["monday1600"]))
 	{
-		$valueMonday1600 = $_POST["monday1600"];
-		array_push($mondayData, $valueMonday1600);
+		array_push($mondayData, $_POST["monday1600"]);
 	}
 	if(isset($_POST["monday1700"]))
 	{
-		$valueMonday1700 = $_POST["monday1700"];
-		array_push($mondayData, $valueMonday1700);
+		array_push($mondayData, $_POST["monday1700"]);
 	}
 	if(isset($_POST["monday1800"]))
 	{
-		$valueMonday1800 = $_POST["monday1800"];
-		array_push($mondayData, $valueMonday1800);
+		array_push($mondayData, $_POST["monday1800"]);
 	}
 	if(isset($_POST["monday1900"]))
 	{
-		$valueMonday1900 = $_POST["monday1900"];
-		array_push($mondayData, $valueMonday1900);
+		array_push($mondayData, $_POST["monday1900"]);
 	}
 	if(isset($_POST["monday2000"]))
 	{
-		$valueMonday2000 = $_POST["monday2000"];
-		array_push($mondayData, $valueMonday2000);
+		array_push($mondayData, $_POST["monday2000"]);
 	}
 	if(isset($_POST["monday2100"]))
 	{
-		$valueMonday2100 = $_POST["monday2100"];
-		array_push($mondayData, $valueMonday2100);
+		array_push($mondayData, $_POST["monday2100"]);
 	}
 	
 	if(isset($_POST["tuesday0800"]))
 	{
-		$valueTuesday0800 = $_POST["tuesday0800"];
-		array_push($tuesdayData, $valueTuesday0800);
+		array_push($tuesdayData, $_POST["tuesday0800"]);
 	}
 	if(isset($_POST["tuesday0900"]))
 	{
-		$valueTuesday0900 = $_POST["tuesday0900"];
-		array_push($tuesdayData, $valueTuesday0900);
+		array_push($tuesdayData, $_POST["tuesday0900"]);
 	}
 	if(isset($_POST["tuesday1000"]))
 	{
-		$valueTuesday1000 = $_POST["tuesday1000"];
-		array_push($tuesdayData, $valueTuesday1000);
+		array_push($tuesdayData, $_POST["tuesday1000"]);
 	}
 	if(isset($_POST["tuesday1100"]))
 	{
-		$valueTuesday1100 = $_POST["tuesday1100"];
-		array_push($tuesdayData, $valueTuesday1100);
+		array_push($tuesdayData, $_POST["tuesday1100"]);
 	}
 	if(isset($_POST["tuesday1200"]))
 	{
-		$valueTuesday1200 = $_POST["tuesday1200"];
-		array_push($tuesdayData, $valueTuesday1200);
+		array_push($tuesdayData, $_POST["tuesday1200"]);
 	}
 	if(isset($_POST["tuesday1300"]))
 	{
-		$valueTuesday1300 = $_POST["tuesday1300"];
-		array_push($tuesdayData, $valueTuesday1300);
+		array_push($tuesdayData, $_POST["tuesday1300"]);
 	}
 	if(isset($_POST["tuesday1400"]))
 	{
-		$valueTuesday1400 = $_POST["tuesday1400"];
-		array_push($tuesdayData, $valueTuesday1400);
+		array_push($tuesdayData, $_POST["tuesday1400"]);
 	}
 	if(isset($_POST["tuesday1500"]))
 	{
-		$valueTuesday1500 = $_POST["tuesday1500"];
-		array_push($tuesdayData, $valueTuesday1500);
+		array_push($tuesdayData, $_POST["tuesday1500"]);
 	}
 	if(isset($_POST["tuesday1600"]))
 	{
-		$valueTuesday1600 = $_POST["tuesday1600"];
-		array_push($tuesdayData, $valueTuesday1600);
+		array_push($tuesdayData, $_POST["tuesday1600"]);
 	}
 	if(isset($_POST["tuesday1700"]))
 	{
-		$valueTuesday1700 = $_POST["tuesday1700"];
-		array_push($tuesdayData, $valueTuesday1700);
+		array_push($tuesdayData, $_POST["tuesday1700"]);
 	}
 	if(isset($_POST["tuesday1800"]))
 	{
-		$valueTuesday1800 = $_POST["tuesday1800"];
-		array_push($tuesdayData, $valueTuesday1800);
+		array_push($tuesdayData, $_POST["tuesday1800"]);
 	}
 	if(isset($_POST["tuesday1900"]))
 	{
-		$valueTuesday1900 = $_POST["tuesday1900"];
-		array_push($tuesdayData, $valueTuesday1900);
+		array_push($tuesdayData, $_POST["tuesday1900"]);
 	}
 	if(isset($_POST["tuesday2000"]))
 	{
-		$valueTuesday2000 = $_POST["tuesday2000"];
-		array_push($tuesdayData, $valueTuesday2000);
+		array_push($tuesdayData, $_POST["tuesday2000"]);
 	}
 	if(isset($_POST["tuesday2100"]))
 	{
-		$valueTuesday2100 = $_POST["tuesday2100"];
-		array_push($tuesdayData, $valueTuesday2100);
+		array_push($tuesdayData, $_POST["tuesday2100"]);
 	}
 	
 	if(isset($_POST["wednesday0800"]))
 	{
-		$valueWednesday0800 = $_POST["wednesday0800"];
-		array_push($wednesdayData, $valueWednesday0800);
+		array_push($wednesdayData, $_POST["wednesday0800"]);
 	}
 	if(isset($_POST["wednesday0900"]))
 	{
-		$valueWednesday0900 = $_POST["wednesday0900"];
-		array_push($wednesdayData, $valueWednesday0900);
+		array_push($wednesdayData, $_POST["wednesday0900"]);
 	}
 	if(isset($_POST["wednesday1000"]))
 	{
-		$valueWednesday1000 = $_POST["wednesday1000"];
-		array_push($wednesdayData, $valueWednesday1000);
+		array_push($wednesdayData, $_POST["wednesday1000"]);
 	}
 	if(isset($_POST["wednesday1100"]))
 	{
-		$valueWednesday1100 = $_POST["wednesday1100"];
-		array_push($wednesdayData, $valueWednesday1100);
+		array_push($wednesdayData, $_POST["wednesday1100"]);
 	}
 	if(isset($_POST["wednesday1200"]))
 	{
-		$valueWednesday1200 = $_POST["wednesday1200"];
-		array_push($wednesdayData, $valueWednesday1200);
+		array_push($wednesdayData, $_POST["wednesday1200"]);
 	}
 	if(isset($_POST["wednesday1300"]))
 	{
-		$valueWednesday1300 = $_POST["wednesday1300"];
-		array_push($wednesdayData, $valueWednesday1300);
+		array_push($wednesdayData, $_POST["wednesday1300"]);
 	}
 	if(isset($_POST["wednesday1400"]))
 	{
-		$valueWednesday1400 = $_POST["wednesday1400"];
-		array_push($wednesdayData, $valueWednesday1400);
+		array_push($wednesdayData, $_POST["wednesday1400"]);
 	}
 	if(isset($_POST["wednesday1500"]))
 	{
-		$valueWednesday1500 = $_POST["wednesday1500"];
-		array_push($wednesdayData, $valueWednesday1500);
+		array_push($wednesdayData, $_POST["wednesday1500"]);
 	}
 	if(isset($_POST["wednesday1600"]))
 	{
-		$valueWednesday1600 = $_POST["wednesday1600"];
-		array_push($wednesdayData, $valueWednesday1600);
+		array_push($wednesdayData, $_POST["wednesday1600"]);
 	}
 	if(isset($_POST["wednesday1700"]))
 	{
-		$valueWednesday1700 = $_POST["wednesday1700"];
-		array_push($wednesdayData, $valueWednesday1700);
+		array_push($wednesdayData, $_POST["wednesday1700"]);
 	}
 	if(isset($_POST["wednesday1800"]))
 	{
-		$valueWednesday1800 = $_POST["wednesday1800"];
-		array_push($wednesdayData, $valueWednesday1800);
+		array_push($wednesdayData, $_POST["wednesday1800"]);
 	}
 	if(isset($_POST["wednesday1900"]))
 	{
-		$valueWednesday1900 = $_POST["wednesday1900"];
-		array_push($wednesdayData, $valueWednesday1900);
+		array_push($wednesdayData, $_POST["wednesday1900"]);
 	}
 	if(isset($_POST["wednesday2000"]))
 	{
-		$valueWednesday2000 = $_POST["wednesday2000"];
-		array_push($wednesdayData, $valueWednesday2000);
+		array_push($wednesdayData, $_POST["wednesday2000"]);
 	}
 	if(isset($_POST["wednesday2100"]))
 	{
-		$valueWednesday2100 = $_POST["wednesday2100"];
-		array_push($wednesdayData, $valueWednesday2100);
+		array_push($wednesdayData, $_POST["wednesday2100"]);
 	}
 	
 	if(isset($_POST["thursday0800"]))
 	{
-		$valueThursday0800 = $_POST["thursday0800"];
-		array_push($thursdayData, $valueThursday0800);
+		array_push($thursdayData, $_POST["thursday0800"]);
 	}
 	if(isset($_POST["thursday0900"]))
 	{
-		$valueThursday0900 = $_POST["thursday0900"];
-		array_push($thursdayData, $valueThursday0900);
+		array_push($thursdayData, $_POST["thursday0900"]);
 	}
 	if(isset($_POST["thursday1000"]))
 	{
-		$valueThursday1000 = $_POST["thursday1000"];
-		array_push($thursdayData, $valueThursday1000);
+		array_push($thursdayData, $_POST["thursday1000"]);
 	}
 	if(isset($_POST["thursday1100"]))
 	{
-		$valueThursday1100 = $_POST["thursday1100"];
-		array_push($thursdayData, $valueThursday1100);
+		array_push($thursdayData, $_POST["thursday1100"]);
 	}
 	if(isset($_POST["thursday1200"]))
 	{
-		$valueThursday1200 = $_POST["thursday1200"];
-		array_push($thursdayData, $valueThursday1200);
+		array_push($thursdayData, $_POST["thursday1200"]);
 	}
 	if(isset($_POST["thursday1300"]))
 	{
-		$valueThursday1300 = $_POST["thursday1300"];
-		array_push($thursdayData, $valueThursday1300);
+		array_push($thursdayData, $_POST["thursday1300"]);
 	}
 	if(isset($_POST["thursday1400"]))
 	{
-		$valueThursday1400 = $_POST["thursday1400"];
-		array_push($thursdayData, $valueThursday1400);
+		array_push($thursdayData, $_POST["thursday1400"]);
 	}
 	if(isset($_POST["thursday1500"]))
 	{
-		$valueThursday1500 = $_POST["thursday1500"];
-		array_push($thursdayData, $valueThursday1500);
+		array_push($thursdayData, $_POST["thursday1500"]);
 	}
 	if(isset($_POST["thursday1600"]))
 	{
-		$valueThursday1600 = $_POST["thursday1600"];
-		array_push($thursdayData, $valueThursday1600);
+		array_push($thursdayData, $_POST["thursday1600"]);
 	}
 	if(isset($_POST["thursday1700"]))
 	{
-		$valueThursday1700 = $_POST["thursday1700"];
-		array_push($thursdayData, $valueThursday1700);
+		array_push($thursdayData, $_POST["thursday1700"]);
 	}
 	if(isset($_POST["thursday1800"]))
 	{
-		$valueThursday1800 = $_POST["thursday1800"];
-		array_push($thursdayData, $valueThursday1800);
+		array_push($thursdayData, $_POST["thursday1800"]);
 	}
 	if(isset($_POST["thursday1900"]))
 	{
-		$valueThursday1900 = $_POST["thursday1900"];
-		array_push($thursdayData, $valueThursday1900);
+		array_push($thursdayData, $_POST["thursday1900"]);
 	}
 	if(isset($_POST["thursday2000"]))
 	{
-		$valueThursday2000 = $_POST["thursday2000"];
-		array_push($thursdayData, $valueThursday2000);
+		array_push($thursdayData, $_POST["thursday2000"]);
 	}
 	if(isset($_POST["thursday2100"]))
 	{
-		$valueThursday2100 = $_POST["thursday2100"];
-		array_push($thursdayData, $valueThursday2100);
+		array_push($thursdayData, $_POST["thursday2100"]);
 	}
 	
 	if(isset($_POST["friday0800"]))
 	{
-		$valueFriday0800 = $_POST["friday0800"];
-		array_push($fridayData, $valueFriday0800);
+		array_push($fridayData, $_POST["friday0800"]);
 	}
 	if(isset($_POST["friday0900"]))
 	{
-		$valueFriday0900 = $_POST["friday0900"];
-		array_push($fridayData, $valueFriday0900);
+		array_push($fridayData, $_POST["friday0900"]);
 	}
 	if(isset($_POST["friday1000"]))
 	{
-		$valueFriday1000 = $_POST["friday1000"];
-		array_push($fridayData, $valueFriday1000);
+		array_push($fridayData, $_POST["friday1000"]);
 	}
 	if(isset($_POST["friday1100"]))
 	{
-		$valueFriday1100 = $_POST["friday1100"];
-		array_push($fridayData, $valueFriday1100);
+		array_push($fridayData, $_POST["friday1100"]);
 	}
 	if(isset($_POST["friday1200"]))
 	{
-		$valueFriday1200 = $_POST["friday1200"];
-		array_push($fridayData, $valueFriday1200);
+		array_push($fridayData, $_POST["friday1200"]);
 	}
 	if(isset($_POST["friday1300"]))
 	{
-		$valueFriday1300 = $_POST["friday1300"];
-		array_push($fridayData, $valueFriday1300);
+		array_push($fridayData, $_POST["friday1300"]);
 	}
 	if(isset($_POST["friday1400"]))
 	{
-		$valueFriday1400 = $_POST["friday1400"];
-		array_push($fridayData, $valueFriday1400);
+		array_push($fridayData, $_POST["friday1400"]);
 	}
 	if(isset($_POST["friday1500"]))
 	{
-		$valueFriday1500 = $_POST["friday1500"];
-		array_push($fridayData, $valueFriday1500);
+		array_push($fridayData, $_POST["friday1500"]);
 	}
 	if(isset($_POST["friday1600"]))
 	{
-		$valueFriday1600 = $_POST["friday1600"];
-		array_push($fridayData, $valueFriday1600);
+		array_push($fridayData, $_POST["friday1600"]);
 	}
 	if(isset($_POST["friday1700"]))
 	{
-		$valueFriday1700 = $_POST["friday1700"];
-		array_push($fridayData, $valueFriday1700);
+		array_push($fridayData, $_POST["friday1700"]);
 	}
 	if(isset($_POST["friday1800"]))
 	{
-		$valueFriday1800 = $_POST["friday1800"];
-		array_push($fridayData, $valueFriday1800);
+		array_push($fridayData, $_POST["friday1800"]);
 	}
 	if(isset($_POST["friday1900"]))
 	{
-		$valueFriday1900 = $_POST["friday1900"];
-		array_push($fridayData, $valueFriday1900);
+		array_push($fridayData, $_POST["friday1900"]);
 	}
 	if(isset($_POST["friday2000"]))
 	{
-		$valueFriday2000 = $_POST["friday2000"];
-		array_push($fridayData, $valueFriday2000);
+		array_push($fridayData, $_POST["friday2000"]);
 	}
 	if(isset($_POST["friday2100"]))
 	{
-		$valueFriday2100 = $_POST["friday2100"];
-		array_push($fridayData, $valueFriday2100);
+		array_push($fridayData, $_POST["friday2100"]);
 	}
 	
 	if(isset($_POST["saturday0800"]))
 	{
-		$valueSaturday0800 = $_POST["saturday0800"];
-		array_push($saturdayData, $valueSaturday0800);
+		array_push($saturdayData, $_POST["saturday0800"]);
 	}
 	if(isset($_POST["saturday0900"]))
 	{
-		$valueSaturday0900 = $_POST["saturday0900"];
-		array_push($saturdayData, $valueSaturday0900);
+		array_push($saturdayData, $_POST["saturday0900"]);
 	}
 	if(isset($_POST["saturday1000"]))
 	{
-		$valueSaturday1000 = $_POST["saturday1000"];
-		array_push($saturdayData, $valueSaturday1000);
+		array_push($saturdayData, $_POST["saturday1000"]);
 	}
 	if(isset($_POST["saturday1100"]))
 	{
-		$valueSaturday1100 = $_POST["saturday1100"];
-		array_push($saturdayData, $valueSaturday1100);
+		array_push($saturdayData, $_POST["saturday1100"]);
 	}
 	if(isset($_POST["saturday1200"]))
 	{
-		$valueSaturday1200 = $_POST["saturday1200"];
-		array_push($saturdayData, $valueSaturday1200);
+		array_push($saturdayData, $_POST["saturday1200"]);
 	}
 	if(isset($_POST["saturday1300"]))
 	{
-		$valueSaturday1300 = $_POST["saturday1300"];
-		array_push($saturdayData, $valueSaturday1300);
+		array_push($saturdayData, $_POST["saturday1300"]);
 	}
-	if(isset($_POST["saturday400"]))
+	if(isset($_POST["saturday1400"]))
 	{
-		$valueSaturday1400 = $_POST["saturday1400"];
-		array_push($saturdayData, $valueSaturday1400);
+		array_push($saturdayData, $_POST["saturday1400"]);
 	}
 	if(isset($_POST["saturday1500"]))
 	{
-		$valueSaturday1500 = $_POST["saturday1500"];
-		array_push($saturdayData, $valueSaturday1500);
+		array_push($saturdayData, $_POST["saturday1500"]);
 	}
 	if(isset($_POST["saturday1600"]))
 	{
-		$valueSaturday1600 = $_POST["saturday1600"];
-		array_push($saturdayData, $valueSaturday1600);
+		array_push($saturdayData, $_POST["saturday1600"]);
 	}
 	if(isset($_POST["saturday1700"]))
 	{
-		$valueSaturday1700 = $_POST["saturday1700"];
-		array_push($saturdayData, $valueSaturday1700);
+		array_push($saturdayData, $_POST["saturday1700"]);
 	}
 	if(isset($_POST["saturday1800"]))
 	{
-		$valueSaturday1800 = $_POST["saturday1800"];
-		array_push($saturdayData, $valueSaturday1800);
+		array_push($saturdayData, $_POST["saturday1800"]);
 	}
 	if(isset($_POST["saturday1900"]))
 	{
-		$valueSaturday1900 = $_POST["saturday1900"];
-		array_push($saturdayData, $valueSaturday1900);
+		array_push($saturdayData, $_POST["saturday1900"]);
 	}
 	if(isset($_POST["saturday2000"]))
 	{
-		$valueSaturday2000 = $_POST["saturday2000"];
-		array_push($saturdayData, $valueSaturday2000);
+		array_push($saturdayData, $_POST["saturday2000"]);
 	}
 	if(isset($_POST["saturday2100"]))
 	{
-		$valueSaturday2100 = $_POST["saturday2100"];
-		array_push($saturdayData, $valueSaturday2100);
+		array_push($saturdayData, $_POST["saturday2100"]);
 	}
 	
 	
